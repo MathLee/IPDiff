@@ -1,5 +1,5 @@
 # IPDiff
-This project provides the code and results for 'IPDiff: Diffusion-driven ORSI Salient Object Detection with Information Reconstruction and Multi-Prior Guidance', IJCV, 2026. [pdf](https://mathlee.github.io/PDF/2026_IJCV_Gongyang.pdf) (Code is coming soon)
+This project provides the code and results for 'IPDiff: Diffusion-driven ORSI Salient Object Detection with Information Reconstruction and Multi-Prior Guidance', IJCV, 2026. [pdf](https://mathlee.github.io/PDF/2026_IJCV_Gongyang.pdf) | [arxiv](https://arxiv.org/abs/2607.03696) (Code is coming soon)
 
 # Network Architecture
    <div align=center>
