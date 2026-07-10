@@ -43,7 +43,7 @@ This project provides the code and results for 'IPDiff: Diffusion-driven ORSI Sa
                 journal = {International Journal of Computer Vision},
                 volume= {134},
                 number = {7},
-                article number = {341},
+                pages = {341},
                 year = {2026},
                 doi = {10.1007/s11263-026-02931-y},
                 }
