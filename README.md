@@ -1,5 +1,5 @@
 # IPDiff
-This project provides the code and results for 'IPDiff: Diffusion-driven ORSI Salient Object Detection with Information Reconstruction and Multi-Prior Guidance', IJCV, 2026. [pdf](https://mathlee.github.io/PDF/2026_IJCV_Gongyang.pdf) | [arxiv](https://arxiv.org/abs/2607.03696) (Code is coming soon)
+This project provides the code and results for 'IPDiff: Diffusion-driven ORSI Salient Object Detection with Information Reconstruction and Multi-Prior Guidance', IJCV, 2026. [IJCV](https://link.springer.com/article/10.1007/s11263-026-02931-y) | [pdf](https://mathlee.github.io/PDF/2026_IJCV_Gongyang.pdf) | [arxiv](https://arxiv.org/abs/2607.03696) (Code is coming soon)
 
 # Network Architecture
    <div align=center>
@@ -41,6 +41,8 @@ This project provides the code and results for 'IPDiff: Diffusion-driven ORSI Sa
                 author = {Gongyang Li and Zhen Bai and Runmin Cong and Dan Zeng and Weisi Lin and Xiao-Ping Zhang},
                 title = {{IPDiff}: Diffusion-driven ORSI Salient Object Detection with Information Reconstruction and Multi-Prior Guidance},
                 journal = {International Journal of Computer Vision},
+                volume= {134},
+                article number = {341},
                 year = {2026},
                 doi = {10.1007/s11263-026-02931-y},
                 }
