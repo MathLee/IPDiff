@@ -35,7 +35,12 @@ This project provides the code and results for 'IPDiff: Diffusion-driven ORSI Sa
 
 
 # [ORSI-SOD_Summary](https://github.com/MathLee/ORSI-SOD_Summary)
-   
+
+
+# 🙏 Acknowledgements
+   This work is built upon [Camodiffusion](https://github.com/Rapisurazurite/CamoDiffusion).
+
+
 # Citation
         @ARTICLE{Li_2026_IPDiff,
                 author = {Gongyang Li and Zhen Bai and Runmin Cong and Dan Zeng and Weisi Lin and Xiao-Ping Zhang},
