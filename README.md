@@ -8,7 +8,7 @@ This project provides the code and results for 'IPDiff: Diffusion-driven ORSI Sa
    
    
 # Requirements
-   python 3.10 + pytorch 2.4.0
+   python 3.9 + pytorch 2.1.1 + cuda 12.1
 
 
 # Saliency maps
