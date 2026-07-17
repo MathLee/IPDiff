@@ -29,7 +29,7 @@ This project provides the code and results for 'IPDiff: Diffusion-driven ORSI Sa
    
    
 # Training
-   1. Use data_aug.m for data augmentation, and put the augmented data under './ORSI_dataset_aug'.
+   1. Use [data_aug.m](https://github.com/MathLee/GeleNet/blob/main/data_aug.m) for data augmentation, and put the augmented data under './ORSI_dataset_aug'.
 
    2. Download the pretrained backbone [pvt_v2_b4_m.pth](https://pan.baidu.com/s/1b27L_BDYacsvUPI9Ei5k1g?pwd=IPDI) (code: IPDI), and put it under './pretrained_weights/models--Anonymity--pvt_pretrained/snapshots'.
 
