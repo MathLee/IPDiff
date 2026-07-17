@@ -10,6 +10,15 @@ This project provides the code and results for 'IPDiff: Diffusion-driven ORSI Sa
 # Requirements
    python 3.9 + pytorch 2.1.1 + cuda 12.1
 
+   
+   To install requirements: 
+
+   ```setup
+   pip install -r requirements.txt
+   ```
+
+   For more details, please refer to [CamoDiffusion](https://github.com/Rapisurazurite/CamoDiffusion/).
+
 
 # Saliency maps
    We provide [saliency maps of our IPDiff](https://pan.baidu.com/s/1WpCqq-onPpGIHWrhjVcQ9Q?pwd=IPDI) (code: IPDI) on three datasets.
@@ -20,14 +29,25 @@ This project provides the code and results for 'IPDiff: Diffusion-driven ORSI Sa
    
    
 # Training
-   We use data_aug.m for data augmentation. 
+   1. Use data_aug.m for data augmentation, and put the augmented data under './ORSI_dataset_aug'.
+
+   2. Download the pretrained backbone [pvt_v2_b4_m.pth](https://pan.baidu.com/s/1b27L_BDYacsvUPI9Ei5k1g?pwd=IPDI) (code: IPDI), and put it under './pretrained_weights/models--Anonymity--pvt_pretrained/snapshots'.
+
+   3. Set your dataset paths in the configuration file under './config/dataset_352x352.yaml' and some training hyperparameters under './configs/default.yaml'.
+
+   4. Run train_ORSSD.py/train_EORSSD.py/train_ors4199.py.
+
+   Note: Our main model is under './model/net.py'
+
    
-   Code is coming soon!!!
-
-
 
 # Pre-trained model and testing
-  Code is coming soon!!!
+  1. Download the pre-trained models on [ORSSD](https://pan.baidu.com/s/1hfUwQ6S-UrmK-frHB5oy0Q?pwd=IPDI) (code: IPDI), [EORSSD](https://pan.baidu.com/s/1lPOBlx8pgXYGSFE23aRChg?pwd=IPDI) (code: IPDI), and [ORSI-4199](https://pan.baidu.com/s/1wpSGCNSC88eH2AyBzUeZYQ?pwd=IPDI) (code: IPDI), and put them in './models/'.
+
+  2. Modify paths of pre-trained models and datasets under './sample.py'.
+
+  3. Run sample.py.
+
 
    
 # Evaluation Tool
