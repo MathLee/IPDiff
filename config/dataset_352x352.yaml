@@ -1,0 +1,33 @@
+train_dataset:
+  name: dataset.data_val.PolypObjDataset
+  params:
+    image_root: './ORSI_dataset_aug/train_dataset/EORSSD/train/image/'
+    gt_root: './ORSI_dataset_aug/train_dataset/EORSSD/train/GT/'
+    trainsize: 352
+#    image_root: './RGBD_rail_datasets/train/rgb_png/'
+#    gt_root: './RGBD_rail_datasets/train/gt/'
+#    trainsize: 352
+#  params:
+#    image_root: './COD/Train/Imgs/'
+#    gt_root: './COD/Train/GT/'
+#    trainsize: 352
+
+test_dataset:
+  ORSSD:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: './ORSI_dataset/test_dataset/ORSSD/image/'
+      gt_root: './ORSI_dataset/test_dataset/ORSSD/GT/'
+      testsize: 352
+  EORSSD:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: './ORSI_dataset/test_dataset/EORSSD/image/'
+      gt_root: './ORSI_dataset/test_dataset/EORSSD/GT/'
+      testsize: 352
+  ors4199:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: './ORSI_dataset/test_dataset/ors4199/image/'
+      gt_root: './ORSI_dataset/test_dataset/ors4199/GT/'
+      testsize: 352
