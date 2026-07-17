@@ -42,7 +42,7 @@ This project provides the code and results for 'IPDiff: Diffusion-driven ORSI Sa
    
 
 # Pre-trained model and testing
-  1. Download the pre-trained models on [ORSSD](https://pan.baidu.com/s/1hfUwQ6S-UrmK-frHB5oy0Q?pwd=IPDI) (code: IPDI), [EORSSD](https://pan.baidu.com/s/1lPOBlx8pgXYGSFE23aRChg?pwd=IPDI) (code: IPDI), and [ORSI-4199](https://pan.baidu.com/s/1wpSGCNSC88eH2AyBzUeZYQ?pwd=IPDI) (code: IPDI), and put them in './models/'.
+  1. Download the pre-trained models on [ORSSD](https://pan.baidu.com/s/1hfUwQ6S-UrmK-frHB5oy0Q?pwd=IPDI) (code: IPDI), [EORSSD](https://pan.baidu.com/s/1lPOBlx8pgXYGSFE23aRChg?pwd=IPDI) (code: IPDI), and [ORSI-4199](https://pan.baidu.com/s/1wpSGCNSC88eH2AyBzUeZYQ?pwd=IPDI) (code: IPDI), and put them in './models'.
 
   2. Modify paths of pre-trained models and datasets under './sample.py'.
 
